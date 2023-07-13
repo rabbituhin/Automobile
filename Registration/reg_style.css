@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("img1/image3.jpg");
+    margin: 0 auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+    
+
+}
+h1{
+    display: flex;
+    margin: 0 auto;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid none;
+    background-color:rgb(2, 11, 21);
+
+}
+
+table{
+    margin: 0 auto; 
+    padding: 100px;
+    background-color: none;
+    border-radius: 10px;
+    opacity: .8
+
+}
+td,tr{
+    font-size: 20px;
+    padding: 15px;
+    color: azure;
+    
+}
+button{
+    margin-left: 150px;
+    color: aliceblue;
+    padding: 9px 25px;
+    background-color:rgb(7, 63, 128);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+button:hover{
+    color:black;
+    background-color: skyblue;
+}

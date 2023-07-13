@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Registration</title>
+    <link rel="stylesheet" href="reg_style.css">
+</head>
+<body>
+    <h1>Member Registration</h1>
+    <form action="#" onsubmit="formValidation(event)" >
+        <table>
+            <tr>
+                <td><label for="fname">First Name :</label></td>
+                <td><input type="text" name="firstname" id="ifname">
+                <span id="efname"></span></td>
+
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name :</label></td>
+                <td><input type="text" name="lastname" id="ilname">
+                <span id="elname"></span></td>
+
+            </tr>
+            <tr>
+                <td><label for="email">E-mail :</label></td>
+                <td><input type="text" name="email" id="iemail">
+                <span id="eemail"></span></td>
+
+            </tr>
+            <tr>
+                <td><label for="mob">Mobile Number :</label></td>
+                <td><input type="text" name="mobile" id="imob">
+                <span id="emob"></span></td>
+
+            </tr>
+            <tr>
+                <td><label for="pass">Password :</label></td>
+                <td><input type="text" name="password" id="ipass">
+                <span id="epass"></span></td>
+
+            </tr>
+            <tr>
+                <td><label for="conpass">Confirm Password :</label></td>
+                <td><input type="text" name="confirm password" id="iconpass">
+                <span id="econpass"></span></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <button onclick="formValidation()"
+                     type="submit">Submit</button>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+    <script src="./reg.js"></script>
+</body>
+</html>

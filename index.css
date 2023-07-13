@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing:border-box;
+}
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("img/image2.jpeg");
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    background: black;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: aliceblue;
+    font-style: italic;
+}
+.nav-bar ul{
+        display:flex;
+        
+        
+}
+.nav-bar ul li a{
+        display: flex;
+        color: aliceblue;
+        font-size: 20px;
+        padding: 10px 100px;
+        border-radius: 50px;
+        transition: 0.2s;
+        align-items: center;
+    
+}
+.nav-bar ul li a:hover{
+    color: black;
+    background: whitesmoke;
+   
+}
+button{
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color:dodgerblue;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+
+
+}
+button:hover{
+    color: black;
+    background-color:whitesmoke;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
+h2{
+
+    color:white;
+    text-align: center;
+}
+ .welcome{
+    width: 600px;
+    padding: 50px;
+    margin:0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .welcome button{
+    font-weight: bold;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 20px 30px;
+    background-color: darkred;
+    
+  }
+  .welcome button:hover{
+    background-color: cornflowerblue;
+  }
+  .start{
+    display: flex;
+    align-items: center;
+
+  }
+  .twt{
+    background-image: url(img/img23.jpg);
+  }
